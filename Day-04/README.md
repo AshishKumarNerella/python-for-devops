@@ -11,6 +11,7 @@ A function in Python is a block of code that performs a specific task. Functions
 ```python
 def greet(name):
     return f"Hello, {name}!"
+   #return "Hello, " + name + "!"
 
 message = greet("Alice")
 print(message)
